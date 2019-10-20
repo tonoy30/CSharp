@@ -1,12 +1,11 @@
-﻿using System;
-
+﻿using InputOutput;
 namespace CSharp
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            new Survey().MakeSurvey();
         }
     }
 }
