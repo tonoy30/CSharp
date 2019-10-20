@@ -1,4 +1,5 @@
 ﻿using InputOutput;
+using WhileLoop;
 namespace CSharp
 {
     class Program
@@ -6,6 +7,7 @@ namespace CSharp
         static void Main(string[] args)
         {
             new Survey().MakeSurvey();
+            new InfiniteLoop().Loop();
         }
     }
 }
